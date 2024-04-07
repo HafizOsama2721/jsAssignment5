@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, footer {
+    background-color: #1d3557;
+}
+
+
+main {
+    background-color: #f0faef;
+    min-height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 2px auto;
+    width: 49%;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.originalStringBox {
+    height: 97.34px;
+    background-color: #1d3557;
+}
+
+
+.outputs {
+    min-height: 256px;
+}
